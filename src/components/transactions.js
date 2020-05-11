@@ -55,16 +55,11 @@ export default class Transactions extends React.Component {
         return inflow
     }
 
-    openForm() {
-        document.getElementById("add-transaction").style.display = "block";
-    }
-
     render() {
         return (
             <div class="transactions">
-                <button onclick="openForm()">ADD TRANSACTION</button>
-                <p>Inflow: ${this.calcInflow(this.state.transactions)}</p>
-                <p>Outflow: ${this.calcOutflow(this.state.transactions)}</p>
+                <p><b>Inflow:</b> ${this.calcInflow(this.state.transactions)}</p>
+                <p><b>Outflow:</b> ${this.calcOutflow(this.state.transactions)}</p>
                 <hr class="thick"></hr>
                 {this.state.transactions.map((transaction) => (
                     <div>

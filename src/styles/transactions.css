@@ -1,6 +1,7 @@
 .transactions {
     width: 800px;
     margin: auto;
+    margin-top: 30px;
     background-color: white;
     padding-left: 20px;
     padding-top: 10px;
@@ -14,20 +15,6 @@
 
 .transactions .thick {
     border: solid 3px black;
-}
-
-.transactions button {
-    font-size: 16px;
-    background-color: #bfbfbf;
-    /* border: solid 2px white; */
-    margin-top: 14px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-radius: 7px;
-}
-
-.transactions button:hover {
-    background-color: #f2f2f2;
 }
 
 .date, .category, .amount {
