@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/add-transaction.css';
-
 export default class AddTransaction extends React.Component {
     render() {
         return (
