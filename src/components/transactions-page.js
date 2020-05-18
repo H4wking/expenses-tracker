@@ -6,7 +6,7 @@ export default class TransactionsPage extends React.Component {
     render() {
         return (
             <div>
-                <AddTransaction></AddTransaction>
+                <AddTransaction onAdd={(e) => this.addNewTransaction(e)}></AddTransaction>
                 <Transactions></Transactions>
             </div>
         )
