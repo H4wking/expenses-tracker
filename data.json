@@ -1,0 +1,25 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "spent": true,
+      "date": "1.1.20",
+      "category": "Car",
+      "amount": 350
+    },
+    {
+      "id": 2,
+      "spent": false,
+      "date": "2.1.20",
+      "category": "Salary",
+      "amount": 1000
+    },
+    {
+      "id": 3,
+      "spent": true,
+      "date": "3.1.20",
+      "category": "Food",
+      "amount": 100
+    }
+  ]
+}

@@ -17,7 +17,7 @@ function App() {
         <NavBar></NavBar>
         <Switch>
           <Route path='/report' component={ReportPage} />
-          <Route path='/' component={TransactionsPage} />
+          <Route path='/' component={Transactions} />
         </Switch>
       </BrowserRouter>
     </div>
